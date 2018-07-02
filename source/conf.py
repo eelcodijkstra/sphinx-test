@@ -15,7 +15,8 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-
+from recommonmark.parser import CommonMarkParser
+from recommonmark.transform import AutoStructify
 
 # -- Project information -----------------------------------------------------
 
@@ -51,7 +52,7 @@ templates_path = ['_templates']
 # You can specify multiple suffix as a list of string:
 #
 # source_suffix = ['.rst', '.md']
-source_suffix = '.rst'
+source_suffix = ['.rst', '.md']
 
 # The master toctree document.
 master_doc = 'index'
@@ -71,6 +72,10 @@ exclude_patterns = []
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
+# Include recommonmark
+source_parsers = {
+   '.md': CommonMarkParser,
+}
 
 # -- Options for HTML output -------------------------------------------------
 
