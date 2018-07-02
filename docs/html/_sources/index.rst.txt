@@ -11,6 +11,7 @@ Welkom bij Sphinx-test
    :caption: Inhoud:
 
    inleiding.rst
+   markdown.md
 
 Indices en tabellen
 ===================
