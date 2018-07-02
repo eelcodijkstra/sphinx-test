@@ -10,6 +10,8 @@ Welkom bij Sphinx-test
    :maxdepth: 2
 
    inleiding.rst
+   sphinx.rst
+   github.rst
    markdown.md
 
 Indices en tabellen

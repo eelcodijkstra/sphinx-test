@@ -8,9 +8,10 @@ Welkom bij Sphinx-test
 
 .. toctree::
    :maxdepth: 2
-   :caption: Inhoud:
 
    inleiding.rst
+   sphinx.rst
+   github.rst
    markdown.md
 
 Indices en tabellen
